@@ -22,7 +22,7 @@ def get_image_files(directory: str, supported_formats: List[str]) -> List[str]:
         for image_file_path in dir:
             extension = os.path.splitext(image_file_path)[1]
             if extension in supported_formats:
-               image_files.append(str(image_file_path.path)) 
+                image_files.append(str(image_file_path.path)) 
             else:
                 print("Image format not supported!")
     
