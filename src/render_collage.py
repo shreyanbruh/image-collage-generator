@@ -12,7 +12,6 @@ import numpy as np
 from categorize_images import SourceImage, SourceImagePalette, categorize_all_images
 
 
-
 def render_collage(target_image: Image.Image,
                    palette: SourceImagePalette,
                    tile_size: int = 40,
